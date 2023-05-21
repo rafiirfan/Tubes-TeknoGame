@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonUtama : MonoBehaviour
 {
-        public void MenuScene(string layarMenu)
+    public void MenuScene(string layarMenu)
     {
         SceneManager.LoadScene(layarMenu);
     }
@@ -15,5 +15,4 @@ public class ButtonUtama : MonoBehaviour
     {
         SceneManager.LoadScene(play);
     }
-
 }
