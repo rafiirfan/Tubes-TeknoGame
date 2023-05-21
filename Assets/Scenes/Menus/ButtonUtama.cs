@@ -15,4 +15,10 @@ public class ButtonUtama : MonoBehaviour
     {
         SceneManager.LoadScene(play);
     }
+
+    public void quitGame()
+    {
+        Debug.Log ("QUIT!");
+        Application.Quit();
+    }
 }
