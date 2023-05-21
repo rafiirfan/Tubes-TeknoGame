@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class spawner : MonoBehaviour
 {
-    public kontroldino dinokontrol;
+    public GameLogic GameLogic;
     public GameObject prefabcactus;
     public List<Sprite> listSpriteCactus;
     public float timeSpawn = 3f;
@@ -17,7 +17,7 @@ public class spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (dinokontrol.startGame == true)
+        if (!GameLogic.isGamePaused)
         {
         timeSpawn -= Time.deltaTime;
         if (timeSpawn <-0)
