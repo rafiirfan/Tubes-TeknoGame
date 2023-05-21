@@ -15,5 +15,4 @@ public class ButtonUtama : MonoBehaviour
     {
         SceneManager.LoadScene(play);
     }
-
 }
