@@ -46,6 +46,7 @@ public class kontroldino : MonoBehaviour
             animator.SetTrigger("jump");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
+            
         }
     }
 }
