@@ -34,6 +34,12 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && GameLogic.isGameOver)
+        {
+            Time.timeScale = 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            return;
+        }
         // If game is running 
         if (!GameLogic.isGameOver && !GameLogic.isGamePaused){
 

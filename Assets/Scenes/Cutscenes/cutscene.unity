@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 19031260}
   - component: {fileID: 19031259}
-  - component: {fileID: 19031258}
   - component: {fileID: 19031257}
   - component: {fileID: 19031256}
   - component: {fileID: 19031255}
@@ -211,21 +210,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1241971, y: 1.8286862}
   m_EdgeRadius: 0
---- !u!114 &19031258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19031254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db5b64f66ffecc4d9a7dc17dc53256f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startGame: 0
-  jumpForce: 15
-  gameOver: 0
 --- !u!212 &19031259
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -732,9 +716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4db5b64f66ffecc4d9a7dc17dc53256f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startGame: 0
+  GameLogic: {fileID: 0}
   jumpForce: 15
-  gameOver: 0
 --- !u!212 &492645463
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1059,7 +1042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6673a5e95243e3d45a0d58d7c651c619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dinokontrol: {fileID: 0}
   additionalScrollSpeed: 0
   backgrounds:
   - {fileID: 2039730572}
@@ -1099,7 +1081,6 @@ GameObject:
   m_Component:
   - component: {fileID: 826100971}
   - component: {fileID: 826100970}
-  - component: {fileID: 826100969}
   - component: {fileID: 826100968}
   - component: {fileID: 826100967}
   - component: {fileID: 826100966}
@@ -1177,21 +1158,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1241971, y: 1.8286862}
   m_EdgeRadius: 0
---- !u!114 &826100969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826100965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db5b64f66ffecc4d9a7dc17dc53256f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startGame: 0
-  jumpForce: 15
-  gameOver: 0
 --- !u!212 &826100970
 SpriteRenderer:
   m_ObjectHideFlags: 0
