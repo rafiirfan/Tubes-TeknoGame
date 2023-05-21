@@ -11,6 +11,8 @@ public class PlayerScript : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
 
+    [SerializeField] private AudioSource jumpSoundeffect;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -46,6 +48,7 @@ public class PlayerScript : MonoBehaviour
             // Jump
             if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
             {
+                jumpSoundeffect.Play();
                 animator.SetTrigger("jump");
                 rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 isGrounded = false;
