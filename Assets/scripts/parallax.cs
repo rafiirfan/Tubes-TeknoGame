@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class parallax : MonoBehaviour
 {
-    public kontroldino dinokontrol;
     //scroll speed added to all backgrounds 
     public float additionalScrollSpeed;
     //an array of all the background game objects

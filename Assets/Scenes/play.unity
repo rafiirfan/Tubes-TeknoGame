@@ -250,7 +250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6673a5e95243e3d45a0d58d7c651c619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dinokontrol: {fileID: 0}
   additionalScrollSpeed: 0
   backgrounds:
   - {fileID: 1130156177}
@@ -325,10 +324,10 @@ RectTransform:
   m_Father: {fileID: 729807893}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -302, y: 148}
-  m_SizeDelta: {x: 132.3303, y: -40.2713}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 194, y: -67}
+  m_SizeDelta: {x: 375.9143, y: -114.3998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &135164544
 MonoBehaviour:
@@ -383,7 +382,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Menuu
+          m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &135164545
@@ -625,7 +624,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.5205326
+  orthographic size: 5.0320106
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -747,8 +746,8 @@ GameObject:
   m_Component:
   - component: {fileID: 729807893}
   - component: {fileID: 729807892}
-  - component: {fileID: 729807894}
   - component: {fileID: 729807891}
+  - component: {fileID: 729807894}
   - component: {fileID: 729807890}
   m_Layer: 5
   m_Name: Canvas
@@ -786,10 +785,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -936,8 +935,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.48
-  m_fontSizeBase: 37.48
+  m_fontSize: 72
+  m_fontSizeBase: 72
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
