@@ -776,7 +776,7 @@ GameObject:
   - component: {fileID: 373954252}
   - component: {fileID: 373954251}
   m_Layer: 0
-  m_Name: spawner
+  m_Name: spawner kotak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
